@@ -17,7 +17,7 @@ function removeElement(nums: number[], val: number): number {
         }
         if (pointerStart == pointerEnd) { // If they are on the same number, no need to continue. 
             if (nums[pointerStart] === val) {  // Swap the value if its the one we don't want.
-                nums[pointerStart] = (val -1);
+                nums[pointerStart] = (val - 1);
                  return (pointerStart); // Return the index (count vs index)
             }
             return (pointerStart + 1); // otherwise include this value. 
