@@ -25,4 +25,4 @@ function merge(nums1: number[], m: number, nums2: number[], n: number): void {
         }
     }
 };
-// runtime 45ms. 
+//65ms
